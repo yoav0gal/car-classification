@@ -1,0 +1,23 @@
+# Conda environment
+.conda/
+
+# Content directory
+content/
+content/**
+
+# Excel files
+*.xlsx
+
+# PyTorch tensor files
+*.pt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS specific files
+.DS_Store
