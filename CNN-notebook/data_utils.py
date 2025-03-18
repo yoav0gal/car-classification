@@ -16,18 +16,7 @@ class CarDataset(Dataset):
     
     def __getitem__(self, idx):
         image = self.images[idx]
-        label = self.labels[idx]
-        
-        # if self.transform:
-        #    if torch.is_tensor(image):
-        #       image = image.squeeze().numpy()
-        #    transformed = self.transform(image=image)
-        #    image = transformed['image'] 
-     
-        # if not torch.is_tensor(image):
-        #     image = torch.from_numpy(image)
-        
-            
+        label = self.labels[idx] 
         return image, label
 
 
